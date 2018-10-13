@@ -1,0 +1,62 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  width: 960px;
+  height: 465px;
+  
+}
+
+svg {
+	width: 1060px;
+	height: 465px;
+	x : 100px;
+	y : 50 px;
+}
+
+path.slice{
+	stroke-width:2px;
+}
+
+polyline{
+	opacity: .7;
+	stroke: white;
+	stroke-width: 3px;
+	fill: none;
+}
+
+.labelValue
+{
+	font-size: 60%;
+	opacity: .5;
+	
+}
+
+.toolTip {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    position: absolute;
+    display: none;
+    width: auto;
+    height: auto;
+    background: none repeat scroll 0 0 white;
+    border: 0 none;
+    border-radius: 8px 8px 8px 8px;
+    box-shadow: -3px 3px 15px #888888;
+    color: black;
+    font: 12px sans-serif;
+    padding: 5px;
+    text-align: center;
+}
+text {
+  font: 12px sans-serif;
+  color: #ffffff;
+	  fill: #fff;
+}
+label {
+color: #ffffff;
+fill: #fff;
+font: 17px sans-serif;
+}
+font {
+color: #ffffff;
+fill: #fff;
+font: 22px sans-serif;
+}
